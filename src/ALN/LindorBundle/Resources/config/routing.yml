@@ -1,0 +1,13 @@
+aln_lindor_homepage:
+    path:     /
+    defaults: { _controller: ALNLindorBundle:Default:index }
+layout:
+    path:     /layout
+    defaults: { _controller: ALNLindorBundle:Default:layout }    
+index:
+    path:     /index
+    defaults: { _controller: ALNLindorBundle:Default:indextemplate }
+
+calendar:
+    path:     /calendar
+    defaults: { _controller: ALNLindorBundle:Default:calendar }
